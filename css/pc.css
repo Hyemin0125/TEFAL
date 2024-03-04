@@ -1,0 +1,444 @@
+@media all and (min-width:1200px){
+
+    .mo{display: none;}
+    .pc{display: block;}
+
+    header h1 .pc{
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    header .hCon{
+        width: 100%;
+        position: relative;
+    }
+
+    header .hWrap .gnb{
+        display: block;
+        width: 60%;
+        margin-right: 20%;
+    }
+
+    header .hWrap .gnb .gnbWrap{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    header .hWrap .gnb .gnbWrap .all{
+        font-family: 'Montserrat';
+    }
+
+    header .hWrap .gnb .gnbWrap .sale{
+        color: #e82530;
+        font-family: 'Montserrat';
+    }
+
+    header .hWrap .gnb .gnbWrap>li>a{
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        width: 90px;
+        margin-bottom: 20px;
+    }
+
+
+    header .hWrap .gnb li:hover{
+        color: #e82530;
+    }
+
+
+    /* header */
+
+    .sWrap{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .siteMap{
+        width: 100%;
+        height: 70%;
+    }
+
+    .uWrap{
+        width: 30%;
+    }
+
+    .gnb2{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 85px;
+    }
+
+    .siteMap .gnb2>li{
+        width: 33.3%;
+    }
+
+    .siteMap .gnb2 .sub2{
+        display: block;
+        width: 40%;
+    }
+
+    .siteMap .gnb2 .sub2 li{
+        width: 100%;
+    }
+
+    .closeBtn{
+        top: 50px;
+        right: 100px;
+    }
+
+    .util li{
+        width: 25%;
+        text-align: center;
+    }
+
+    .event li{
+        text-align: center;
+        width: 33.3%;
+    }
+
+    .bn .prev{
+        top: 50%;
+        left: 50px;
+        transform: translate(0,-50%);
+    }
+    
+    .bn .next{
+        top: 50%;
+        right: 50px;
+        transform: translate(0,-50%);
+    }
+    /* bn */
+
+    /* siteMap */
+
+    .category{
+        margin: 150px auto 200px auto;
+    }
+
+    .category .item p{
+        font-size: 28px;
+    }
+
+    .category .item1{
+        background-image: url(../images/pc_category_1.jpg);
+    }
+    
+    .category .item2{
+        background-image: url(../images/pc_category_2.jpg);
+    }
+    
+    .category .item3{
+        background-image: url(../images/pc_category_3.jpg);
+    }
+    
+    .category .item4{
+        background-image: url(../images/pc_category_4.jpg);
+    }
+    
+    .category .item5{
+        background-image: url(../images/pc_category_5.jpg);
+    }
+    /* category */
+
+    .timeSale{
+        margin-bottom: 200px;
+    }
+
+    .timeSale h3{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .jsClock{
+        font-size: 40px;
+    }
+
+    .timeSale .tWrap{
+        margin-left: 24px;
+    }
+
+    .timeSale .tWrap .item{
+        margin-right: 24px;
+        margin-bottom: 80px;
+    }
+
+    .timeSale .tWrap .item .img{
+        width: 402px;
+        height: 402px;
+        margin-bottom: 14px;
+    }
+
+    .timeSale .tWrap .item1 .img{
+        background-image: url(../images/pc_time_1_2.jpg);
+    }
+    
+    .timeSale .tWrap .item2 .img{
+        background-image: url(../images/pc_time_2_2.jpg);
+    }
+    
+    .timeSale .tWrap .item3 .img{
+        background-image: url(../images/pc_time_3_2.jpg);
+    }
+    
+    .timeSale .tWrap .item4 .img{
+        background-image: url(../images/pc_time_4_2.jpg);
+    }
+    
+    .timeSale .tWrap .item5 .img{
+        background-image: url(../images/pc_time_5_2.jpg);
+    }
+    
+    .timeSale .tWrap .item6 .img{
+        background-image: url(../images/pc_time_6_2.jpg);
+    }
+    
+    .timeSale .tWrap .item7 .img{
+        background-image: url(../images/pc_time_7_2.jpg);
+    }
+    
+    .timeSale .tWrap .item8 .img{
+        background-image: url(../images/pc_time_8_2.jpg);
+    }
+    
+    .timeSale .tWrap .item9 .img{
+        background-image: url(../images/pc_time_9_2.jpg);
+    }
+
+    .timeSale .tWrap .item .img:hover .pc{
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    .timeSale .tWrap .item .txt h5{
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    
+    .timeSale .tWrap .item .txt p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #9e9e9e;
+    }
+    
+    .timeSale .tWrap .item .txt .percent{
+        font-size: 20px;
+        margin-right: 2px;
+    }
+    
+    .timeSale .tWrap .item .txt .discount{
+        font-size: 20px;
+        margin-right: 4px;
+    }
+    
+    .timeSale .tWrap .item .txt .origin{
+        font-size: 20px;  
+    }
+    /* timesale */
+
+    .newsEvent{
+        margin-bottom: 200px;
+    }
+
+    .newsEvent h3{
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+
+    .nWrap{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .newsEvent .nWrap .img{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        width: 56%;
+    }
+
+    .newsEvent .nWrap .img .item .pc{
+        width: 100%;
+    }
+
+    .newsEvent .nWrap .img .item .over{
+        display: none;
+    }
+
+    .newsEvent .nWrap .txt{
+        width: 36%;
+    }
+
+    .newsEvent .nWrap .txt .box{
+        width: 90%;
+        height: 138px;
+    }
+
+    .newsEvent .nWrap .txt .box h5{
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+
+    .newsEvent .nWrap .txt .box p{
+        display: unset;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .nWrap .txt{
+        display: unset;
+        flex-wrap: unset;
+        justify-content: unset;
+    }
+    /*newsevent*/
+
+    .review{
+        width: 100%;
+        height: 870px;
+        margin-bottom: 200px;
+
+    }
+
+    .review h3{
+        font-size: 50px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .review .rWrap{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 90vw;
+        margin: 0 auto 50px auto;
+    }
+
+    .review .item{
+        width: 23%;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .review .item .pic .pc{
+        width: 100%;
+    }
+
+    .review .item .pic p{
+        font-size: 16px;
+    }
+
+    .review .item .over{
+        font-size: 16px;
+    }
+
+    .reviewBtn{
+        width: 230px;
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+
+    .reviewBtn img{
+        width: 28px;
+        height: 13px;
+        margin-top: 3px;
+    }
+
+    .plus{
+        display: none;
+    }
+    /*review*/
+
+    .help{
+        width: 62vw;
+        margin-bottom: 200px;
+    }
+
+    .help h3{
+        font-size: 40px;
+    }
+
+    .help .heWrap .box{
+        height: 100px;
+    }
+
+    .help .heWrap .box h5{
+        width: 28%;
+    }
+
+    .help .heWrap .box p{
+        display: block;
+        font-size: 16px;
+        width: 50%;
+    }
+
+    .help .heWrap .box .icon{
+        margin-left: 30px;
+        width: 50px;
+    }
+
+    .help .heWrap .box .arrow{
+        width: 28px;
+        height: 14px;
+        margin-right: 30px;
+    }
+
+    /*help*/
+
+    .sns h3{
+        font-size: 50px;
+    }
+
+    .sns h6{
+        font-size: 26px;
+    }
+
+    .sns p{
+        font-size: 24px;
+    }
+    .sns .img{
+        flex-wrap: nowrap;
+    }
+
+    .sns .img .item{
+        width: 16.6%;
+    }
+
+    .sns .img .item .pc{
+        width: 100%;
+    }
+
+    .sns .snsIcon{
+        padding: 40px 0;
+        width: 30vw;
+    }
+/*sns*/
+
+    footer{
+
+        background-image: url(../images/pc_footer_bk.jpg);
+    }
+
+    footer .fWrap{
+        width: 70vw;
+        padding: 100px 0;
+    }
+
+    footer .fWrap .call{
+        margin-top: 0;
+    }
+
+    footer p{
+        padding-bottom: 200px;
+        font-size: 14px;
+        width: 70vw;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+}
