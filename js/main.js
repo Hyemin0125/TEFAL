@@ -32,7 +32,7 @@ $(window).resize(function(){
     }).resize(); 
 
 const clockTitle = document.querySelector(".jsClock");
-const sale = new Date(2024, 4, 30, 0, 0, 0).getTime();
+const sale = new Date(2024, 4, 1, 0, 0, 0).getTime();
 
 const countdown = setInterval(function () { 
     const now = new Date();
